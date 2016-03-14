@@ -1,0 +1,257 @@
+body{
+    background-color: #adcb47;
+}
+hr{
+    margin-top: 0px;
+}
+p{
+    margin: 0px;
+}
+.main{
+    height : 1386px;
+    width : 892px;
+    background-color:white;
+    padding: 0 44px;
+}
+.header{
+    
+}
+.webname{
+    width: 110px;
+    height: 61px;
+    background-color: #DB3E75;
+    color: white;
+    display: inline-block;
+}
+.webname p{
+    font-size: 12px;
+    font-family: '黑体';
+    margin-top: 40%;
+    margin-left: 5px;
+}
+.webtime{
+    width: 110px;
+    height: 61px;
+    float: right;
+    color: #DB3E75;
+}
+.webtime p{
+    font-size: 12px;
+    font-family: '黑体';
+    margin-top: 40%;
+    float: right;
+}
+
+.part_1{
+    margin-top:41px;
+}
+.part_1 .p1_right{
+    width: 641px;
+    height: 301px;
+    display: inline-block;
+}
+
+.part_1 .p1_right img{
+    width: 641px;
+    height: 301px;
+    position: absolute
+}
+.part_1 .p1_right .left_mask{
+    position: absolute;
+    width: 191px;
+    height: 301px;
+    background-color: green;
+    opacity: 0.5;
+}
+.part_1 .p1_right .right_mask{
+    width: 191px;
+    height: 301px;
+    background-color: #DB3E75;
+    opacity: 0.5;
+    float: right;
+}
+.part_1 .p1_left{
+    float:right;
+    width: 203px;
+}
+.part_1 .p1_left ins{
+    font-family: '微软雅黑';
+    font-size: 16px;
+    line-height: 20px;
+}
+.part_1 .p1_left .about:first-letter{
+    font-size: 24px;
+}
+.part_1 .p1_left .aboutTechnologe{
+    font-family: '微软雅黑';
+    font-size: 10px;
+    color: #676767;
+    line-height: 10px;
+}
+.part_1 .p1_left .num{
+    font-family: '微软雅黑';
+    font-size: 116px;
+    color: #75b86b;
+    margin-top: -10px;
+}
+.part_1 .p1_left .css{
+    font-family: '微软雅黑';
+    font-size: 55px;
+    color: #cc8091;
+    margin: 0 0px;
+    margin-top: -20px;
+}
+.part_1 .p1_left .css sup{
+    font-size: 21px;
+}
+.part_1 .p1_left .css sub{
+    font-size: 12px;
+    
+}
+.part_2{
+    margin-top:41px;
+    height: 220px;;
+}
+.part_2 .what{
+    width: 228px;
+    display: inline;
+    float:left;
+}
+.part_2 .what ins{
+    font-size: 16px;
+    color:#418c59;
+    font-family: '微软雅黑';
+    font-weight: 700;
+}
+.part_2 p{
+    font-size: 12px;
+}
+.part_2 .when{
+    width: 192px;
+    display: inline;
+    float:left;
+    margin-left: 24px;
+}
+.part_2 .when ins{
+    font-size: 16px;
+    color:#d2994f;
+    font-family: '微软雅黑';
+    font-weight: 700;
+}
+.part_2 .how{
+    width: 173px;
+    display: inline;
+    float:left;
+    margin-left: 24px;
+}
+.part_2 .how ins{
+    font-size: 16px;
+    color:#cc7680;
+    font-family: '微软雅黑';
+    font-weight: 700;
+}
+.part_2 .how ul{
+    font-size: 12px;
+    list-style: none;
+}
+.part_2 .how li{
+    font-size: 12px;
+    opacity: 0.7;
+    color:#231815;
+    line-height: 16px;
+}
+.part_2 .how li i{
+    color:#cd4a48;
+}
+
+.part_3{
+    width: 415px;
+    height: 617px;
+    display: inline;
+    float:left;
+}
+.part_3 .the{
+    color:#f5e327;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "黑体";
+}
+.part_3 .tor{
+    color:#11456b;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "黑体";
+}
+.part_3 .title{
+    color:#11456b;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: "黑体";
+}
+.part_3>.artical:first-letter{
+    color:#f5e327;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "微软雅黑";
+    float:left;
+    padding:30px 0;
+}
+.part_3 p{
+    color:#767777;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: "微软雅黑";
+}
+.part_3 img{
+    padding: 10px;
+    width: 160px;
+    height: 280px;
+    float: right;
+    margin-top: 60px;
+    shape-outside:inset(70px 10px 10px 10px);
+    
+}
+
+
+.part_4 {
+    float: right;
+}
+.part_4 img{
+    width: 458px;
+    height: 275px;
+}
+.part_4 .FE{
+    width: 458px;
+    height: 61px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+}
+.part_4 .ending{
+    margin-top: 24px;
+    width: 459px;
+    height: 318px;
+    background-color: #EAF1CF;
+    
+}
+
+
+
+
+
+.footer{
+    position: absolute;
+    width: 892px;
+    top: 1325px;
+}
+.footer hr{
+    margin: 0px;
+}
+.footer .footerWebName{
+    font-size: 12px;
+    font-family: '黑体';
+    color: #D45b5c;
+    float: right;
+}
