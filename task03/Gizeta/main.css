@@ -1,0 +1,55 @@
+.container, .box {
+  padding: 20px;
+  border: 1px solid #999;
+}
+
+.container {
+  background-color: #eee;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box {
+  background-color: white;
+}
+
+.intro {
+  width: 160px;
+  float: left;
+}
+
+.intro img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #999;
+}
+
+.intro span {
+  vertical-align: top;
+}
+
+.content {
+  margin-left: 220px;
+  margin-right: 140px;
+  text-indent: 2em;
+  word-wrap: break-word;
+}
+
+.member {
+  width: 80px;
+  float: right;
+}
+
+.member img {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.member img:first-child {
+  margin-top: 0px;
+}
