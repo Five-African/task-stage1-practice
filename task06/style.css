@@ -110,7 +110,7 @@ p{
 }
 .part_2{
     margin-top:41px;
-    height: 220px;;
+    height: 220px;
 }
 .part_2 .what{
     width: 228px;
@@ -224,21 +224,113 @@ p{
 }
 .part_4 .FE{
     width: 458px;
+    height: 275px;
+    background-image: url("i/3.jpg");
+    background-size: 458px 275px;
+
+}
+.part_4 .word{
+    position: relative;
+    top:214px;
     height: 61px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.part_4 .word div{
+    height: 44px;
+    width: 20px;
+    top:10px;
+    border-right: 3px solid #72b16a; 
     position: absolute;
-    background-color: black;
-    opacity: 0.5;
+}
+.part_4 .word span{
+    margin-left: 30px;
+    font-size: 26px;
+    color: #fff;
+    line-height: 60px;
+}
+.part_4 .word i{
+    font-size: 12px;
+    color: #72b16a;
 }
 .part_4 .ending{
     margin-top: 24px;
     width: 459px;
     height: 318px;
     background-color: #EAF1CF;
+    clear: both;
     
 }
+.part_4 .ending ul{
+    line-height: 20px;
+    list-style: square url("i/triangle.png");
+    font-size: 12px;
+    font-family: "宋体";
+    color: #5a5b5b;
+}
+.part_4 .ending .ottff{
+    width: 260px;
+    height: 160px;
+    background-color: #DB3E75;
+    margin-top: 86px;
+    display: inline;
+    float:left;
+    color: white;
+    font-family: "微软雅黑";
+}
+.part_4 .ending .ottff .zero{
+    font-size: 110px;
+    margin-left: 10px;
+    float: left;
+}
+.part_4 .ending .ottff .squra{
+    height: 86px;
+    margin-top: 30px;
+    margin-right: 3px;
+    border-left: 2px solid white;
+    display: inline-block;
+    float: left;
+}
 
-
-
+.part_4 .ending .ottff .of{
+    display: block;
+    width: 280px;
+    margin-top: 30px;
+    font-size: 21px;
+}
+.part_4 .ending .ottff .hw{
+    font-size: 12px;
+    display: block;
+    width: 220px;
+}
+.part_4 .ending .helloworld{
+    margin-top: 98px;
+    width: 199px;
+    height: 160px;
+    display: inline;
+    float:left;
+    font-family: "黑体";
+}
+.part_4 .ending .helloworld p{
+    line-height: 16px;
+    font-style: italic;
+}
+.part_4 .ending .helloworld>:first-child{
+    color:#d45d5c;
+    font-size: 72px;
+    float: left;
+    height: 14px;
+    line-height: 36px;
+    margin-left: -36px;
+}
+.part_4 .ending .helloworld>:nth-child(3){
+    color:#d45d5c;
+    font-size: 72px;
+    float: left;
+    height: 14px;
+    line-height: 36px;
+    margin-left: 50px;
+}
 
 
 .footer{
