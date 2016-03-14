@@ -44,6 +44,9 @@ img {
 .content {
   margin-left: 220px;
   margin-right: 140px;
+}
+
+.content p {
   text-indent: 2em;
 }
 
