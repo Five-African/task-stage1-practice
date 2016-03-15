@@ -1,0 +1,84 @@
+html, body, hr {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #43555b;
+}
+
+.container {
+  width: 892px;
+  height: 1386px;
+  margin: 0 auto;
+  padding: 0px 44px;
+  background-color: white;
+}
+
+.container > header {
+  font-family: "SimHei";
+  font-size: 12px;
+  line-height: 100px;
+}
+
+.container > header div:first-of-type {
+  float: right;
+  color: #d45d5c;
+  vertical-align: bottom;
+}
+
+.container > header div:last-of-type {
+  width: 110px;
+  height: 61px;
+  background-color: #db3e75;
+  color: white;
+  text-indent: 10px;
+}
+
+hr {
+  height: 2px;
+  border: none;
+}
+
+.container > header ~ hr {
+  width: 892px;
+  height: 1px;
+  background-color: #938e8c;
+}
+
+.container > header + hr {
+  height: 2px;
+}
+
+#article1 {
+  margin-top: 41px;
+  font-family: "Microsoft YaHei";
+}
+
+#article1 header {
+  float: right;
+  width: 203px;
+}
+
+#article1 hr {
+  width: 203px;
+  background-color: #cc8091;
+}
+
+#article1 header .title * {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+#article1 header .title *::first-letter {
+  font-size: 24px;
+}
+
+#article1 header .title + p {
+  font-family: "KaiTi";
+  font-size: 12px;
+  font-style: italic;
+  line-height: 10px;
+  color: #676767;
+}
