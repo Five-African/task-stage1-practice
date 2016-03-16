@@ -15,13 +15,13 @@ body
 	margin: 0;
 	padding: 10px;
 	box-sizing: border-box;
-	width: 100%;
-	display: -webkit-flex; /* Safari */
-  	display: -ms-flexbox;
-  	display: flex;
-  	-webkit-flex-wrap:wrap;
-  	    -ms-flex-wrap:wrap;
-  	        flex-wrap:wrap;
+	width:calc(100%/12*);
+	flex:calc(100%/12*);
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap:wrap;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
 }
 
 .content
@@ -35,52 +35,64 @@ body
 {
 	.col-md-1
 	{
-		width: 8.333333%;
+		width: calc(100%/12*1);
+		flex: calc(100%/12*1);
 	}
 	.col-md-2
 	{
-		width: 16.666667%;
+		width:calc(100%/12*2);
+		flex:calc(100%/12*2);
 	}
 	.col-md-3
 	{
-		width: 25%;
+		width:calc(100%/12*3);
+		flex:calc(100%/12*3);
 	}
 	.col-md-4
 	{
-		width: 33.333333%;
+		width:calc(100%/12*4);
+		flex:calc(100%/12*4);
 	}
 	.col-md-5
 	{
-		width: 41.666667%;
+		width:calc(100%/12*5);
+		flex:calc(100%/12*5);
 	}
 	.col-md-6
 	{
-		width: 50%;
+		width:calc(100%/12*6);
+		flex:calc(100%/12*6);
 	}
 	.col-md-7
 	{
-		width: 58.333333%;
+		width:calc(100%/12*7);
+		flex:calc(100%/12*7);
 	}
 	.col-md-8
 	{
-		width: 66.666667%;
+		width:calc(100%/12*8);
+		flex:calc(100%/12*8);
 	}
 	.col-md-9
 	{
-		width: 75%;
+		width:calc(100%/12*9);
+		flex:calc(100%/12*9);
 	}
 	.col-md-10
 	{
-		width: 83.333333%;
+		width:calc(100%/12*10);
+		flex:calc(100%/12*10);
 	}
 	v
 	.col-md-11
 	{
-		width: 91.666667%;
+		width:calc(100%/12*11);
+		flex:calc(100%/12*11);
 	}
 	.col-md-12
 	{
-		width: 100%;
+		width:calc(100%/12*12);
+		flex:calc(100%/12*12);
 	}
 }
 
@@ -88,51 +100,63 @@ body
 {
 	.col-sm-1
 	{
-		width: 8.333333%;
+		width:calc(100%/12*1);
+		flex:calc(100%/12*1);
 	}
 	.col-sm-2
 	{
-		width: 16.666667%;
+		width:calc(100%/12*2);
+		flex:calc(100%/12*2);
 	}
 	.col-sm-3
 	{
-		width: 25%;
+		width:calc(100%/12*3);
+		flex:calc(100%/12*3);
 	}
 	.col-sm-4
 	{
-		width: 33.333333%;
+		width:calc(100%/12*4);
+		flex:calc(100%/12*4);
 	}
 	.col-sm-5
 	{
-		width: 41.666667%;
+		width:calc(100%/12*5);
+		flex:calc(100%/12*5);
 	}
 	.col-sm-6
 	{
-		width: 50%;
+		width:calc(100%/12*6);
+		flex:calc(100%/12*6);
 	}
 	.col-sm-7
 	{
-		width: 58.333333%;
+		width:calc(100%/12*7);
+		flex:calc(100%/12*7);
 	}
 	.col-sm-8
 	{
-		width: 66.666667%;
+		width:calc(100%/12*8);
+		flex:calc(100%/12*8);
 	}
 	.col-sm-9
 	{
-		width: 75%;
+		width:calc(100%/12*9);
+		flex:calc(100%/12*9);
 	}
 	.col-sm-10
 	{
-		width: 83.333333%;
+		width:calc(100%/12*10);
+		flex:calc(100%/12*10);
 	}
 	v
 	.col-sm-11
 	{
-		width: 91.666667%;
+		width:calc(100%/12*11);
+		flex:calc(100%/12*11);
 	}
 	.col-sm-12
 	{
-		width: 100%;
+		width:calc(100%/12*12);
+		flex:calc(100%/12*12);
 	}
 }
