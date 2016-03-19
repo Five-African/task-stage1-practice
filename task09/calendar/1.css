@@ -1,0 +1,106 @@
+.calendar
+{
+	width: 380px;
+	height: 380px;
+	font-size: 12px;
+	border:solid 1px #aaa;
+	border-radius: 10px;
+	overflow: hidden;
+}
+header
+{
+	height: 40px;
+	background-color: #eee;
+	padding-left: 8%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #888;
+}
+.calendar .selector
+{
+	margin: 3% 0;
+	height: 40px;
+	padding: 0 2em;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.calendar .selector>*
+{
+	flex: 1;
+	margin-right: 10px;
+	height: 30px;
+}
+.calendar .selector>:last-child
+{
+	margin-right: 0;
+}
+
+.calendar .selector select
+{
+	border: solid 1px #aaa;
+	-webkit-appearance:none;
+	   -moz-appearance:none;
+	        appearance:none;
+	background: url("arrow.png") no-repeat scroll right center transparent;
+	padding-right: 20px;
+}
+
+.calendar .selector button
+{
+	background-color: transparent;
+	border:solid 1px #aaa;
+}
+
+.calendar table
+{
+	padding: 0 1em;
+	width: 100%;
+}
+
+.calendar th
+{
+	text-align: center;
+	width: 14.2857%;
+	padding:0.5em 0.3em;
+}
+.calendar td
+{
+	width: 14.2857%;
+}
+
+.calendar label
+{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding:0.5em 0.3em;
+	box-sizing: border-box;
+	border:solid 1px transparent;
+}
+
+.calendar label:hover
+{
+	border:solid 1px #f5c21d;
+}
+
+.calendar input
+{
+	display: none;
+}
+input[id^='cal']:checked + [id^='cal_td_']
+{
+	border:solid 1px #f5c21d;
+}
