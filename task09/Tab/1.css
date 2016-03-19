@@ -1,0 +1,129 @@
+.tab
+{
+	width: 600px;
+	height: 450px;
+	font-size: 12px;
+	border:solid 1px #aaa;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+header
+{
+	height: 40px;
+	background-color: #eee;
+	padding-left: 8%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #888;
+
+}
+.tab ul
+{
+	height: 27px;
+	list-style-type: none;
+	width: 90%;
+	margin: 1em auto;
+	-webkit-padding-start: 0;
+	position: relative;
+}
+.tab li
+{
+	float: left;
+    margin-left: 3px;
+}
+.tab li:first-child
+{
+	margin-left: 0;
+}
+.tab input
+{
+	display: none;
+}
+.tab input ~ label
+{
+	cursor: pointer;
+    width: 86px;
+    height: 27px;
+    display: block;
+    text-align: center;
+    line-height: 27px;
+    background: #ededf0;
+    border: 1px solid #ededf0;
+    border-radius: 5px 5px 0 0;
+    color: #535353;
+}
+
+.tab input:checked ~ label
+{
+	position: relative;
+    z-index: 1;
+    border: 1px solid #cacbcb;
+    border-bottom: none;
+    background: #fff;
+    height: 28px;
+}
+.tab li label
+{
+	cursor: pointer;
+    width: 86px;
+    height: 27px;
+    display: block;
+    text-align: center;
+    line-height: 27px;
+    background: #ededf0;
+    border: 1px solid #ededf0;
+    border-radius: 5px 5px 0 0;
+    color: #535353;
+}
+.tab .content
+{
+	display: none;
+	padding:2em;
+	width: 95%;
+	position: absolute;
+	border: 1px solid #cacbcb;
+	border-radius: 0 5px 5px;
+	margin-top: -1px;
+	left:0;
+}
+.tab input:checked ~ .content
+{
+	display: table;
+}
+.tab .content tbody
+{
+	width: 100%;
+	height: 100%;
+}
+.tab .content td
+{
+	border:solid 1px #ddd;
+	border-left: none;
+	border-top: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 1em 0.3em;
+	text-align: center;
+}
+
+
+.tab .content tr>:first-child
+{
+	border-left: solid 1px #ddd;
+}
+.tab .content tr:first-child td
+{
+	border-top: solid 1px #ddd;
+}
+
+.tab .content td:hover
+{
+	background: #f4f6f7;
+	cursor: pointer;
+}
