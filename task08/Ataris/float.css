@@ -1,0 +1,8 @@
+[class*=col-]
+{
+	float: left;
+}
+.container
+{
+	display: inline-block;
+}
