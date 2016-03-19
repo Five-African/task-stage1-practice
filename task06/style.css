@@ -222,7 +222,7 @@ p{
     width: 458px;
     height: 275px;
 }
-.part_4 .FE{
+.part_4 .pic{
     width: 458px;
     height: 275px;
     background-image: url("i/3.jpg");
@@ -268,7 +268,7 @@ p{
     font-family: "宋体";
     color: #5a5b5b;
 }
-.part_4 .ending .ottff{
+.part_4 .ending .tips{
     width: 260px;
     height: 160px;
     background-color: #DB3E75;
@@ -278,12 +278,12 @@ p{
     color: white;
     font-family: "微软雅黑";
 }
-.part_4 .ending .ottff .zero{
+.part_4 .ending .tips .zero{
     font-size: 110px;
     margin-left: 10px;
     float: left;
 }
-.part_4 .ending .ottff .squra{
+.part_4 .ending .tips .squra{
     height: 86px;
     margin-top: 30px;
     margin-right: 3px;
@@ -292,13 +292,13 @@ p{
     float: left;
 }
 
-.part_4 .ending .ottff .of{
+.part_4 .ending .tips .topTitle{
     display: block;
     width: 280px;
     margin-top: 30px;
     font-size: 21px;
 }
-.part_4 .ending .ottff .hw{
+.part_4 .ending .tips .bottomWords{
     font-size: 12px;
     display: block;
     width: 220px;
