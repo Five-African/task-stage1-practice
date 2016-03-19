@@ -1,0 +1,116 @@
+.project
+{
+	width: 400px;
+	height: 400px;
+	font-size: 12px;
+	border:solid 1px #aaa;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+}
+header
+{
+	height: 40px;
+	background-color: #eee;
+	padding-left: 8%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #888;
+
+}
+.project>div
+{
+	padding:2em;
+}
+.project .mid
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.project .mid div
+{
+	flex: 1;
+	box-sizing: border-box;
+}
+
+.project .mid div:last-child
+{
+	margin-left: 1em;
+}
+
+
+.project .mid div:first-child
+{
+	border-right: solid 1px #e7e7e7;
+}
+
+.project label
+{
+	display: block;
+	line-height: 20px;
+	color: #b2b2b2;
+	width: 100%;
+}
+.project input
+{
+	display: block;
+	line-height: 20px;
+	box-sizing: border-box;
+	border:none;
+	width: 100%;
+}
+.project input[type="checkbox"]
+{
+    display: inline;
+    width: initial;
+    vertical-align: sub;
+}
+.confirm
+{
+	display: block !important;
+    width: initial !important;
+    float: left !important;
+}
+
+textarea
+{
+	width: 100%;
+	height: 150px;
+	box-sizing: border-box;
+	border:none;
+	resize: none;
+}
+
+.project>div>div
+{
+	padding-left: 1em;
+	border-bottom: solid 1px #e7e7e7;
+}
+
+.project>div>div:last-child
+{
+	border-bottom: none;
+	display: flex;
+	bottom: 0;
+	justify-content: space-between;
+	height: 40px;
+	align-items: center;
+}
+
+.project input[type="submit"]
+{
+    width: 50px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: #388ac1;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
