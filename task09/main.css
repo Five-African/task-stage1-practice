@@ -1,0 +1,222 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body > header {
+  position: fixed;
+  display: inline;
+  left: 0px;
+  right: 0px;
+  padding: 10px 40px;
+  background-color: #2189bf;
+  color: white;
+  font-size: 12px;
+  line-height: 35px;
+  z-index: 99;
+}
+
+body > header img {
+  vertical-align: middle;
+}
+
+.pull-right {
+  float: right;
+}
+
+body > header .pull-right > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+body > header .pull-right > div * {
+  vertical-align: middle;
+}
+
+.search {
+  padding: 0px 15px;
+  height: 29px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.search img {
+  vertical-align: top !important;
+  margin-top: 6px;
+}
+
+.search input {
+  vertical-align: top !important;
+  border: none;
+  margin-top: 5px;
+}
+
+nav {
+  position: fixed;
+  top: 56px;
+  bottom: 0px;
+  width: 260px;
+  background-color: #2a2e3d;
+  color: #6d7f95;
+  font-size: 14px;
+}
+
+nav .user {
+  text-align: center;
+  margin-top: 25px;
+}
+
+nav .user img {
+  border: 1px solid white;
+  border-radius: 26.5px;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+nav .user img + span {
+  margin-left: 20px;
+  color: white;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+nav .user .detail {
+  margin-top: 20px;
+}
+
+nav .user .detail > div {
+  display: inline-block;
+}
+
+nav .user .detail > div:first-of-type {
+  padding-right: 30px;
+  border-right: 1px solid #6d7f95;
+}
+
+nav .user .detail > div:last-of-type {
+  padding-left: 30px;
+}
+
+.nav, .nav ul {
+  padding-left: 0px;
+}
+
+.nav li {
+  list-style-type: none;
+  padding: 7px 0px 7px 40px;
+}
+
+.nav > li > ul > li {
+  padding-left: 25px;
+}
+
+.nav li > span {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.nav li.active > span {
+  color: white;
+}
+
+.nav > li.active {
+  background-color: #373d4c;
+}
+
+.nav > li::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  background: url('images/report.png');
+  vertical-align: middle;
+}
+
+.nav > li:nth-of-type(1) > ul > li::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  vertical-align: middle;
+  background-image: url('images/arrow.png');
+  background-position: 0px 1px;
+}
+
+.nav > li:nth-of-type(1) > ul > li.active::before {
+  background-position: 0px 12px;
+}
+
+.nav > li:nth-of-type(1) > ul > li > span::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  background: url('images/folder2.png');
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.nav > li:nth-of-type(1) > ul > li.active > span::before {
+  background: url('images/folder.png');
+  margin-left: -2px;
+}
+
+.nav > li:nth-of-type(1) > ul > li > ul > li::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  background: url('images/document2.png');
+  vertical-align: middle;
+}
+
+.nav > li:nth-of-type(1) > ul > li > ul > li.active::before {
+  background: url('images/document.png');
+}
+
+.nav > li:nth-of-type(2)::before, .nav > li:nth-of-type(4)::before, .nav > li:nth-of-type(5)::before {
+  background: url('images/star.png');
+}
+
+.nav > li:nth-of-type(3)::before {
+  background: url('images/location.png');
+}
+
+.nav > li:nth-of-type(6)::before {
+  background: url('images/account.png');
+}
+
+main {
+  position: absolute;
+  top: 56px;
+  left: 260px;
+  right: 0px;
+  background-color: #eee;
+}
+
+main > .content {
+  padding: 20px 60px 150px 60px;
+}
+
+main > .content > * {
+  margin-bottom: 20px;
+}
+
+main > .content .tab {
+  background-color: white;
+}
+
+main > .content .project {
+  float: right;
+  background-color: white;
+}
+
+main > .content .calendar {
+  background-color: white;
+}
