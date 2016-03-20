@@ -1,0 +1,110 @@
+body{
+    background-color: #EDEDED;
+}
+.leftMenu ul{
+    list-style: none;
+    padding: 0px;
+}
+.leftMenu li{
+    line-height: 3;
+    padding-left: 40px;
+    font-size: 14px;
+}
+.leftMenu li:hover{
+    background-color: #363C4C;
+}
+.leftMenu{
+    float: left;
+    width:300px;
+    background-color: #2C3040;
+    font-family: "黑体";
+    font-weight: 300;
+    color: lightgray;
+}
+.headImgBorder{
+    margin:10px 0 0 70px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;    
+}
+.headImg{
+    margin: 3px 0 0 3px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+}
+.userName{
+    width: 100px;
+    text-align: center;
+    display: inline-block;   
+}
+.collectAndFans{
+    text-align: center;
+}
+.separate{
+    width: 2px;
+    height: 40px;
+    margin: 0px 25px;
+    background-color: white;
+    display: inline-block;
+}
+.collection,.fans{
+    display: inline-block;
+}
+
+
+
+
+.breadcrumb{
+    background-color: white;
+    line-height: 2;
+    font-family: "黑体";
+    font-size: 14px;
+}
+.breadcrumb > span:first-child{
+    margin-left: 40px;
+}
+.search{
+    background-color: white;
+    margin: 20px 40px 20px 340px;
+    padding: 10px 25px 10px 25px;
+    font-family: "黑体";
+    font-size: 14px;
+}
+.search > form{
+    float:left;
+    margin-top:3px;
+}
+.search select{
+     height: 25px;
+}
+
+.sell{
+    display: inline-block;
+    padding-left: 40px;
+}
+.sell select{
+    height: 25px;
+    width: 100px;
+    margin: 2px;
+}
+.search .detail{
+    display: inline-block;
+    padding-left: 40px;
+}
+.search .detail select{
+    margin: 2px;
+}
+.searchBtn{
+    background-color: #3889C0;
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    font-family: '黑体';
+    font-size: 12px;
+    color: #fff;
+    border: 0px;
+}
