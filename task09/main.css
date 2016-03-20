@@ -201,7 +201,9 @@ main {
 }
 
 main > .content {
-  padding: 20px 60px 150px 60px;
+  padding: 20px 50px 150px 50px;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 main > .content > * {
