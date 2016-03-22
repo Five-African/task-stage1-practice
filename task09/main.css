@@ -222,3 +222,123 @@ main > .content .project {
 main > .content .calendar {
   background-color: white;
 }
+
+
+
+
+
+.breadcrumb{
+    background-color: white;
+    line-height: 2;
+    font-family: "黑体";
+    font-size: 14px;
+    color: lightgray;
+    line-height: 2;
+    margin-top: 5px;
+}
+.breadcrumb > span:first-child{
+    margin-left: 40px;
+}
+.searchLab{
+    background-color: white;
+    margin: 20px 40px 20px 40px;
+    padding: 10px 25px 10px 25px;
+    font-family: "黑体";
+    font-size: 14px;
+}
+.searchLab > form{
+    float:left;
+    margin-top:3px;
+}
+.searchLab select{
+     height: 25px;
+}
+
+.sell{
+    display: inline-block;
+    padding-left: 40px;
+}
+.sell select{
+    height: 25px;
+    width: 100px;
+    margin: 2px;
+}
+.searchLab .detail{
+    display: inline-block;
+    padding-left: 40px;
+}
+.searchLab .detail select{
+    margin: 2px;
+}
+.searchBtn{
+    background-color: #3889C0;
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    font-family: '黑体';
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    top:-15px;
+    left: 20px;
+}
+
+.timeAndMoney{
+    font-family: "黑体";
+}
+.timeAndMoney ul{
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.timeAndMoney li{
+    list-style: none;
+    float: left;
+}
+.historySearch, .timeAndMoney li>div{
+    background-color: white;
+    width: 110px;
+    height: 70px;
+    margin: 0 5px;
+    text-align: center;
+}
+.timeAndMoney li>div:hover{
+    border-top: 3px solid deepskyblue;
+}
+
+.timeAndMoney li .time{
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    
+}
+.timeAndMoney li .money{
+    margin: 0px;
+    font-size: 24px;
+    color: red;
+    font-weight: 500;
+}
+.timeAndMoney li .money::before{
+    content: "￥";
+    color: lightgray;
+    font-size: 18px;
+}
+.leftBtn{
+    height: 70px;
+    width: 30px;
+    margin-left: 40px;
+    background-color: white;
+
+}
+.c_btn{
+    padding: 0px;
+    border: 1px solid lightgray;
+}
+.rightBtn{
+    height: 70px;
+    width: 30px;
+    background-color: white;
+}
+.historySearch{
+    vertical-align: top;
+}

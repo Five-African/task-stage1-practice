@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: '黑体';
+}
+body{
+    font-size:16px;
+}
+.head{
+    background-color: #91D4DA;
+    height: 8vh;
+    line-height: 8vh;
+
+}
+.head a{
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 2rem;
+}
+.head a::before{
+    content: "<";
+}
+.head h1{
+    color: white;
+    font-weight: 200;
+    font-size: 4rem;
+    text-align: center;
+}
+nav{
+    height: 4rem;
+}
+nav li{
+    list-style: none;
+    font-size: 2.8rem;
+    line-height: 8rem;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.nav_active{
+    border-bottom: 8px solid deepskyblue;
+}

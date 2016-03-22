@@ -108,3 +108,59 @@ body{
     color: #fff;
     border: 0px;
 }
+
+.timeAndMoney{
+    font-family: "黑体";
+}
+.timeAndMoney ul{
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.timeAndMoney li{
+    list-style: none;
+    float: left;
+}
+.historySearch, .timeAndMoney li>div{
+    background-color: white;
+    width: 110px;
+    height: 70px;
+    margin: 0 5px;
+    text-align: center;
+}
+.timeAndMoney li>div:hover{
+    border-top: 4px solid blue;
+}
+.timeAndMoney li .time{
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    
+}
+.timeAndMoney li .money{
+    margin: 0px;
+    font-size: 24px;
+    color: red;
+    font-weight: 700;
+}
+.leftBtn{
+    height: 70px;
+    width: 30px;
+    padding: 0px;
+    margin-left: 40px;
+    background-color: white;
+    border: 0px;
+}
+.rightBtn{
+    height: 70px;
+    width: 30px;
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+}
+.historySearch{
+    display: inline-block;
+}
+.historySearch span{
+    line-height: 70px;
+}
