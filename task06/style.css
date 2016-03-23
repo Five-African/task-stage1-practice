@@ -103,10 +103,14 @@ p{
 }
 .part_1 .p1_left .css sup{
     font-size: 21px;
+    position: relative;
+    top:10px;
 }
 .part_1 .p1_left .css sub{
     font-size: 12px;
-    
+    position: relative;
+    top:-10px;
+    left: -30px;
 }
 .part_2{
     margin-top:41px;
@@ -264,16 +268,17 @@ p{
 .part_4 .ending ul{
     line-height: 20px;
     list-style: square url("i/triangle.png");
-    font-size: 12px;
-    font-family: "宋体";
+    font-size: 14px;
+    font-family: 'SimSun';
     color: #5a5b5b;
+    padding-top: 30px;
 }
 .part_4 .ending .tips{
     width: 260px;
     height: 160px;
     background-color: #DB3E75;
-    margin-top: 86px;
-    display: inline;
+    margin-top: 56px;
+    display: inline-block;
     float:left;
     color: white;
     font-family: "微软雅黑";
@@ -307,7 +312,7 @@ p{
     margin-top: 98px;
     width: 199px;
     height: 160px;
-    display: inline;
+    display: inline-block;
     float:left;
     font-family: "黑体";
 }
