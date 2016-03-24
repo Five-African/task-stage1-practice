@@ -130,7 +130,7 @@ nav li{
     line-height: 6vh;
     text-align: center;
     font-weight: 200;
-    border: 1vh solid #fff; 
+    border: 5px solid #fff; 
 }
 #part_4::after{
     clear: both;
@@ -169,7 +169,7 @@ nav li{
     line-height: 6vh;
     text-align: center;
     font-weight: 200;
-    border: 1vh solid #fff; 
+    border: 5px solid #fff; 
 }
 #part_5::after{
     clear: both;
@@ -183,11 +183,15 @@ nav li{
     bottom: 0;
 }
 
+
+
 #part_6{
     width: 100%;
     margin: 0 auto;
 }
 #part_6 li{
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
     display: flex;
     flex-flow: row nowrap;
     padding: 4%;
